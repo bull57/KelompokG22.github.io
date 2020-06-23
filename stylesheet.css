@@ -80,7 +80,7 @@ header {
 }
 
 .logo {
-  font-size: 18px;
+  font-size: 32px;
   padding: 20px 0px;
   color:white;
   font-family:tahoma;
@@ -97,7 +97,7 @@ header {
 
 .header-right a {
   line-height: 90px;
-  padding: 0 15px;
+  padding: 0 25px;
   color: white;
   display: block;
   float: left;
@@ -143,6 +143,10 @@ header {
 .lesson {
   float: left;
   width: 25%;
+}
+
+.lesson:hover {
+  cursor:pointer;
 }
 
 .lesson-icon {
@@ -203,7 +207,7 @@ footer {
 }
 
 .footer-logo {
-  font-size: 18px;
+  font-size: 32px;
   float: left;
 }
 
@@ -229,4 +233,3 @@ footer {
   margin-bottom: 6px;
   list-style: none;
 }
-
